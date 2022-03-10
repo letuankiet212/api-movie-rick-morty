@@ -1,7 +1,9 @@
+import Character from './components/Character';
+
 function App() {
 	return (
 		<div className="App">
-			<div className="text-red-500">hello</div>
+			<Character></Character>
 		</div>
 	);
 }
